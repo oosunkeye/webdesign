@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDesign - Web Services Website</title>
+    <!--====== Designed & Built by : David Osunkeye ======-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+
+  <body>
+
+    <!--============ Preloader ============-->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!--============ Header Section ============-->
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="javascript:void(0);">WebDesign</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto align-items-center">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
+              <a class="nav-link" href="#faq">FAQ</a>
+              <a class="nav-link contact_btn" href="#modal">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- /Header Section -->
+
+    <main>
+
+      <!--============ Hero Section ============-->
+      <section id="hero">
+        <div class="container">
+          <div class="row justify-content-evenly align-items-center gap-lg-0 gap-3">
+            <div class="col-xl-5 col-lg-6 col-10 order-last order-lg-first text-white hero_txt">
+              <h5>Welcome to WebDesign -</h5>
+              <h3 class="my-3">Web Design & Development Services</h3>
+              <p>You have a vision and we have a team to get you there. Stay focused on your business. Let us handle the
+                design.</p>
+              <button type="button" class="hero_btn">Get Started</button>
+            </div>
+            <div class="col-lg-5 col-md-8 col-9 order-first order-lg-last">
+              <figure class="hero_img">
+                <img src="assets/img/hero.svg" alt="hero-img">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="7" fill="#fff">
+          </g>
+        </svg>
+      </section>
+      <!-- /Hero Section -->
+
+      <!--============ About Section ============-->
+      <section id="about">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2 class="section_title">About us</h2>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly align-items-center gap-4 gap-lg-0 about_wrapper">
+            <div class="col-lg-5 col-md-8 col-10">
+              <figure class="about_img">
+                <img src="assets/img/about.svg" alt="about-img">
+              </figure>
+            </div>
+            <div class="col-xl-5 col-lg-6 col-10 about_txt">
+              <h3>We build quality websites that build your business</h3>
+              <p class="mt-4">You have a vision and we have a team to get you there. You've a business to run. Stop
+                worrying
+                about
+                cross-browser bugs, designing new pages,
+                optimizations and
+                keeping your website up-to-date. Let us do that for you.</p>
+              <button type="button" class="about_btn btn_anim">Know More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!--============ Services Section ============-->
+      <section id="services">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2 class="section_title">Our Services</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-xl px-0 px-lg-3">
+          <div class="swiper services_swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="services_img">
+                  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(142, 45, 226);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(74, 0, 224);"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path id="blob" d="M308.5,342Q144,434,142,246.5Q140,59,306.5,154.5Q473,250,308.5,342Z"
+                      fill="url(#gradient)"></path>
+                  </svg>
+                  <img src="assets/img/services/web-design.svg" alt="web-design">
+                </div>
+                <div class="services_info">
+                  <h4>Web Design</h4>
+                  <p>Web design refers to the design of websites that are displayed on the internet.</p>
+                  <button type="button" class="services_btn btn_anim">Read More</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="services_img">
+                  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(142, 45, 226);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(74, 0, 224);"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path id="blob" d="M308.5,342Q144,434,142,246.5Q140,59,306.5,154.5Q473,250,308.5,342Z"
+                      fill="url(#gradient)"></path>
+                  </svg>
+                  <img src="assets/img/services/web-development.svg" alt="web-development">
+                </div>
+
+                <div class="services_info">
+                  <h4>Web Development</h4>
+                  <p>Web development refers to the building, creating, and maintaining of websites.</p>
+                  <button type="button" class="services_btn btn_anim">Read More</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="services_img">
+                  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(142, 45, 226);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(74, 0, 224);"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path id="blob" d="M308.5,342Q144,434,142,246.5Q140,59,306.5,154.5Q473,250,308.5,342Z"
+                      fill="url(#gradient)"></path>
+                  </svg>
+                  <img src="assets/img/services/ux-design.svg" alt="ux-design">
+                </div>
+
+                <div class="services_info">
+                  <h4>UI & UX Design</h4>
+                  <p>UI & UX design is a craft of creating visual content to communicate messages.</p>
+                  <button type="button" class="services_btn btn_anim">Read More</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="services_img">
+                  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(142, 45, 226);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(74, 0, 224);"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path id="blob" d="M308.5,342Q144,434,142,246.5Q140,59,306.5,154.5Q473,250,308.5,342Z"
+                      fill="url(#gradient)"></path>
+                  </svg>
+                  <img src="assets/img/services/tech-support.svg" alt="tech-support">
+                </div>
+
+                <div class="services_info">
+                  <h4>Tech Support</h4>
+                  <p>Tech support focuses on resolving a technical issue in the fastest, most cost-effective way.</p>
+                  <button type="button" class="services_btn btn_anim">Read More</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="services_img">
+                  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(142, 45, 226);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(74, 0, 224);"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path id="blob" d="M308.5,342Q144,434,142,246.5Q140,59,306.5,154.5Q473,250,308.5,342Z"
+                      fill="url(#gradient)"></path>
+                  </svg>
+                  <img src="assets/img/services/seo.svg" alt="seo">
+                </div>
+
+                <div class="services_info">
+                  <h4>SEO Services</h4>
+                  <p>SEO is the process of improving the quality and quantity of website traffic.</p>
+                  <button type="button" class="services_btn btn_anim">Read More</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!--============ Deal Section ============-->
+      <section id="deal">
+        <div class="container">
+          <div class="row justify-content-evenly gap-4 gap-lg-0 align-items-center deal_wrapper">
+            <div class="col-xl-5 col-lg-6 col-10 order-last order-lg-first deal_txt">
+              <h3>Stay focused on your business.</h3>
+              <h3>Let us handle the design.</h3>
+              <p class="mt-4 mb-5">You've a business to run. Stop worrying about cross-browser bugs, designing new
+                pages,
+                optimizations and
+                keeping your website up-to-date. Let us do that for you.</p>
+              <div class="pt-5 d-flex deal_numbs">
+                <span>
+                  <b>100%</b> <br>
+                  <small>Satisfaction</small>
+                </span>
+                <span>
+                  <b>24 / 7</b> <br>
+                  <small>Support</small>
+                </span>
+                <span>
+                  <b>100K+</b> <br>
+                  <small>Sales</small>
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-10 order-first order-lg-last">
+              <figure class="deal_img">
+                <img src="assets/img/deal.svg" alt="deal-img">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Deal Section -->
+
+      <!--============ Pricing Section ============-->
+      <section id="pricing">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2 class="section_title">Pricing</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid container-lg px-sm-5 px-md-0 px-lg-3">
+          <div class="row justify-content-center gap-4 gap-md-0 pricing_wrapper">
+
+            <!-- price-card-1 -->
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-7 col-9 text-center price_card">
+              <div class="price_info">
+                <b>Basic</b><br>
+                <strong>
+                  <sup>$</sup>29
+                </strong><br>
+                <span>per month</span>
+              </div>
+              <ul class="ps-0 price_features">
+                <li>User Experience Design</li>
+                <li>Strategy and Design Direction</li>
+                <li>Unique User Interface</li>
+                <li>Increase Page's Conversion</li>
+              </ul>
+              <button type="button" class="price_btn btn_anim">Select Plan</button>
+            </div>
+
+            <!-- price-card-2 -->
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-7 col-9 text-center price_card">
+              <div class="price_info">
+                <b>Premium</b><br>
+                <strong>
+                  <sup>$</sup>59
+                </strong><br>
+                <span>per month</span>
+              </div>
+              <ul class="ps-0 price_features">
+                <li>User Experience Design</li>
+                <li>Increase Page's Conversion</li>
+                <li>Dedicated Tech Support</li>
+                <li>Strategy and Design Direction</li>
+              </ul>
+              <button type="button" class="price_btn btn_anim selected">Select Plan</button>
+            </div>
+
+            <!-- price-card-3 -->
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-7 col-9 text-center price_card">
+              <div class="price_info">
+                <b>Enterprise</b><br>
+                <strong>
+                  <sup>$</sup>99
+                </strong><br>
+                <span>per month</span>
+              </div>
+              <ul class="ps-0 price_features">
+                <li>Unique User Interface</li>
+                <li>Free Host and Domain</li>
+                <li>User Experience Design</li>
+                <li>Increase Page's Conversion</li>
+              </ul>
+              <button type="button" class="price_btn btn_anim">Select Plan</button>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- /Pricing Section -->
+
+      <!--============ Project Section ============-->
+      <section id="project">
+        <div class="container-fluid container-md">
+          <div class="row justify-content-center text-center project_wrapper">
+            <div class="col-lg-6 project_info">
+              <h1>Ready to discuss <br> your project?</h1>
+              <a href="#modal" class="project_btn contact_btn btn_anim">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Project Section -->
+
+      <!--============ Testimonials Section ============-->
+      <section id="testi">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2 class="section_title">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-xl px-0 px-lg-3">
+          <div class="swiper testi_swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <blockquote class="testi_review">
+                  &#8220; WebDesign has been of great help and I plan to continue to use your services in the future for
+                  my
+                  business needs. &#8221; <br>
+                  <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </blockquote>
+                <div class="testi_details">
+                  <figure class="testi_img">
+                    <img src="assets/img/testi/testi-1.jpg" alt="testi-img">
+                  </figure>
+                  <h5>Robert Jarvis</h5>
+                  <span>Photographer</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote class="testi_review">
+                  &#8220; I have used WebDesign a couple of times and I am very happy with the results each time.
+                  &#8221;
+                  <br>
+                  <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </blockquote>
+                <div class="testi_details">
+                  <figure class="testi_img">
+                    <img src="assets/img/testi/testi-2.jpg" alt="testi-img">
+                  </figure>
+                  <h5>Jessica Eve</h5>
+                  <span>Freelancer</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote class="testi_review">
+                  &#8220; Really like using WebDesign. I am pushing my web design clients to have me get these for their
+                  sites. &#8221; <br>
+                  <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </blockquote>
+                <div class="testi_details">
+                  <figure class="testi_img">
+                    <img src="assets/img/testi/testi-3.jpg" alt="testi-img">
+                  </figure>
+                  <h5>Patrick Parker</h5>
+                  <span>Selling Agent</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote class="testi_review">
+                  &#8220; Super website for people like us who have start-ups. I will recommend WebDesign to others for
+                  sure.
+                  &#8221; <br>
+                  <span>&#9733;&#9733;&#9733;&#9733;</span>
+                </blockquote>
+                <div class="testi_details">
+                  <figure class="testi_img">
+                    <img src="assets/img/testi/testi-4.jpg" alt="testi-img">
+                  </figure>
+                  <h5>Victoria</h5>
+                  <span>Store Owner</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote class="testi_review">
+                  &#8220; WOW! Thank you so much! I'll leave a review mentioning your incredible customer service & how
+                  satisfied I'm with your services. &#8221; <br>
+                  <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </blockquote>
+                <div class="testi_details">
+                  <figure class="testi_img">
+                    <img src="assets/img/testi/testi-5.jpg" alt="testi-img">
+                  </figure>
+                  <h5>G. Thomson</h5>
+                  <span>Entrepreneur</span>
+                </div>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!--============ FAQ Section ============-->
+      <section id="faq">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2 class="section_title">FAQ</h2>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly align-items-center gap-4 gap-lg-0 faq_wrapper">
+            <div class="col-lg-5 col-md-8 col-10">
+              <figure class="faq_img mx-auto">
+                <img src="assets/img/faq.svg" alt="faq-img">
+              </figure>
+            </div>
+
+            <div class="col-xl-6 col-lg-7 col-md-11 faq_txt">
+              <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      &#149; What’s the difference between website design & development?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Website development includes building a website’s core structure using programming languages,
+                        while
+                        web designing is related to the user interface and user experience design. They both work side
+                        by
+                        side. Web developers use their coding skills to breathe life into a web designer’s creative
+                        vision.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      &#149; How much does it cost to develop a website?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Website development cost varies from project to project. It depends on the project itself.
+                        Normally, a good website with both server-side and front-end development cost ranges from $10000
+                        to
+                        $200000+. You would need to discuss your requirements with the web development team to estimate
+                        the
+                        actual cost.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      &#149; Are there any undisclosed costs?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Not at all. We work with integrity and transparency. We offer a tailor-made solution and
+                        discuss
+                        the charges with you even before starting the project. Our websites are highly scalable. So if
+                        you
+                        want to launch an MVP (Minimum Viable Product) and add extra features and functionalities later
+                        when
+                        your business and budget grows, we will diligently arrange for the same.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      &#149; What is included in website development?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Website development services vary across a wide range of domains including web engineering,
+                        e-commerce platform development, web design, client-side/server-side scripting, web server,
+                        network
+                        security configuration to name just a few.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      &#149; Do I need a domain name?
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>A custom domain name can make your website look professional online. It builds your brand,
+                        makes
+                        your website more memorable, and helps visitors find you online. With our service, you can start
+                        with a free website name, and all premium our plans include a professional custom domain at no
+                        additional charge.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /FAQ Section -->
+
+    </main>
+
+    <!--============ Footer Section ============-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-content-evenly footer_wrapper">
+          <div class="col-md-10 text-center">
+            <ul class="ps-0 foot_social_links">
+              <li><a href="#" title="facebook"><img src="assets/img/icons/facebook.png" alt="facebook"></a></li>
+              <li><a href="#" title="instagram"><img src="assets/img/icons/instagram.png" alt="instagram"></a></li>
+              <li><a href="#" title="twitter"><img src="assets/img/icons/twitter.png" alt="twitter"></a></li>
+              <li><a href="#" title="linkedin"><img src="assets/img/icons/linkedin.png" alt="linkedin"></a></li>
+            </ul>
+
+            <ul class="ps-0 foot_quick_links">
+              <li><a href="#about">About us</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+
+            <div class="foot_credit">
+              <p>&#169;
+                <script>
+                  document.write(new Date().getFullYear() + " ");
+                </script>
+                WebDesign | All Rights Reserved.
+              </p>
+              <p>Designed & Built by | <a href="https://DavidOsunkeye.netlify.app/" target="_blank">David Osunkeye</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg class="foot-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="7" fill="#fff">
+        </g>
+      </svg>
+    </footer>
+    <!-- /Footer Section -->
+
+    <!--============ Go-to-Top Button ============-->
+    <div id="goTop" title="Go to Top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path
+          d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+      </svg>
+    </div>
+    <!-- /Go-to-Top Button -->
+
+    <!--============ Contact-Modal ============-->
+    <section id="modal">
+      <div class="modal_centered">
+        <div class="modal_wrapper">
+
+          <div class="modal_form text-white">
+            <form action="#" class="contact_form">
+              <div class="d-flex justify-content-between align-items-center mb-5 form_head">
+                <h5 class="m-0">Hello, let's talk</h5>
+                <span class="fs-1 close_btn modal_close_btn_sm" title="close">&times</>
+              </div>
+
+              <div class="input_box">
+                <input type="text" class="input_fields" required>
+                <label for="">Your Name*</label>
+              </div>
+              <div class="input_box my-5">
+                <input type="email" class="input_fields" required>
+                <label for="">Your Email*</label>
+              </div>
+              <div class="input_box">
+                <textarea rows="3" class="input_fields" required></textarea>
+                <label for="">Describe Your Project*</label>
+              </div>
+
+              <button type="submit" class="mt-5 modal_send_btn btn_anim">Send &RightArrow; </button>
+            </form>
+          </div>
+
+          <div class="modal_info">
+            <h4 class="mb-0">We'd love to hear from you</h4>
+            <ul class="ps-0 mt-5">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  class="info_svg">
+                  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M22 6L12 13L2 6" stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round">
+                  </path>
+                </svg><br>
+                <span>info@WebDesign.com</span>
+              </li>
+
+              <li class="my-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  class="info_svg">
+                  <path d="M23 7V1H17" stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M16 8L23 1" stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path
+                    d="M22 16.9201V19.9201C22.0011 20.1986 21.9441 20.4743 21.8325 20.7294C21.7209 20.9846 21.5573 21.2137 21.3521 21.402C21.1469 21.5902 20.9046 21.7336 20.6408 21.8228C20.3769 21.912 20.0974 21.9452 19.82 21.9201C16.7428 21.5857 13.787 20.5342 11.19 18.8501C8.77383 17.3148 6.72534 15.2663 5.19 12.8501C3.49998 10.2413 2.44824 7.27109 2.12 4.1801C2.09501 3.90356 2.12788 3.62486 2.2165 3.36172C2.30513 3.09859 2.44757 2.85679 2.63477 2.65172C2.82196 2.44665 3.04981 2.28281 3.30379 2.17062C3.55778 2.05843 3.83234 2.00036 4.11 2.0001H7.11C7.59531 1.99532 8.06579 2.16718 8.43376 2.48363C8.80173 2.80008 9.04208 3.23954 9.11 3.7201C9.23662 4.68016 9.47145 5.62282 9.81 6.5301C9.94455 6.88802 9.97366 7.27701 9.89391 7.65098C9.81415 8.02494 9.62886 8.36821 9.36 8.6401L8.09 9.9101C9.51356 12.4136 11.5865 14.4865 14.09 15.9101L15.36 14.6401C15.6319 14.3712 15.9752 14.1859 16.3491 14.1062C16.7231 14.0264 17.1121 14.0556 17.47 14.1901C18.3773 14.5286 19.3199 14.7635 20.28 14.8901C20.7658 14.9586 21.2094 15.2033 21.5265 15.5776C21.8437 15.9519 22.0122 16.4297 22 16.9201Z"
+                    stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg><br>
+                <span>+00 9876543210</span>
+              </li>
+
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  class="info_svg">
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="#4A00E0" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg><br>
+                <span>E-24, Golden Tower</span>
+              </li>
+            </ul>
+            <button type="button" class="mt-5 close_btn modal_close_btn btn_anim"> &#215; Close</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Contact-Modal -->
+
+    <!--============ JavaScript Files ============-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/tilt_js/vanilla-tilt.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
+</html>
