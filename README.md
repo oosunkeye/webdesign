@@ -7,7 +7,7 @@ A single-page Web Services website with a modern yet minimalistic design along w
 
 ## Preview:
 
-![Preview](DesignX-preview-web-by-Davido.png)
+![Preview](webdesign-davido-preview.png)
 
 ## Features:
 
@@ -25,7 +25,8 @@ A single-page Web Services website with a modern yet minimalistic design along w
 
 ## Author:
 
-- **Gulshan Songara** - **[Portfolio Website](https://gulshansongara.netlify.app)**, **[Linkedin](https://www.linkedin.com/in/gulshansongara/)** 
+- **David Osunkeye** - **[Portfolio Website](https://davidosunkeye.netlify.app)**, **[Linkedin](https://www.linkedin.com/in/davidosunkeye/)**
+
 <br/>
 
 ## License:
